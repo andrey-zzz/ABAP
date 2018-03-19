@@ -9,8 +9,8 @@
 *&---------------------------------------------------------------------*
 REPORT z_download_doc_from_dpf.
 
-INCLUDE zhr_dpd_download_files_screen.
-INCLUDE zhr_dpd_download_files_class.
+INCLUDE z_download_doc_from_dpf_screen.
+INCLUDE z_download_doc_from_dpf_class.
 
 DATA lo_dpd_download_files TYPE REF TO zhr_dpd_download_files.
 
