@@ -72,7 +72,7 @@ START-OF-SELECTION.
     CLEAR ls_idat.
 
     ls_idat-sprsl = 'E'.
-    ls_idat-arbgb = 'ZHR_SELF_SERVICE'.
+    ls_idat-arbgb = 'Z_SELF_SERVICE'.
 
     SPLIT ls_itab-rec AT ',' INTO
     ls_idat-msgnr
