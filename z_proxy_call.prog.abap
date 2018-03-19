@@ -3,7 +3,7 @@
 *&---------------------------------------------------------------------*
 *& Author       : Aris van Mazijk (DEVELOPER)
 *& Date         : 19-03-2018
-*& Description  : ABAP OO Report with multiple proxy calls (TEST)
+*& Description  : ABAP OO Report with multiple proxy calls
 *& Marker       :
 *& Transport    : NPLK900023.
 *&---------------------------------------------------------------------*
