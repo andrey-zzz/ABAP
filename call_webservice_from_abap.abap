@@ -1,5 +1,3 @@
-Webservice oproepen vanuit ABAP:
-
 * 1. Aanmaken client proxy vanuit web service naar keuze vanuit SE80.
 * 2. Aanmaken logical port vanuit transactie SOAMANAGER.
 * 3. Vanuit ABAP rapport proxy class instantieren en methode aanroepen:
