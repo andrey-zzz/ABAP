@@ -1,5 +1,5 @@
 *&---------------------------------------------------------------------*
-*&  Include           Z_UPLOAD_DOC_TO_DPF_SCREEN
+*&  Include           Z_CREATE_DPF_FROM_PDF_SCREEN
 *&---------------------------------------------------------------------*
 selection-screen begin of block b1 with frame title text-001.
 parameters pa_meta type rlgrap-filename obligatory default '\\Sapfil01\sap\ECC\ECO\HRM\HRM0800_Pdossier\metadata.csv'.
