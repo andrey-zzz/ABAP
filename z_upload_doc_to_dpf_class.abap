@@ -1,13 +1,13 @@
 *&---------------------------------------------------------------------*
-*&  Include           ZHR_DPD_INLEZEN_CLASS
+*&  Include           Z_UPLOAD_DOC_TO_DPF
 *&---------------------------------------------------------------------*
 
 *----------------------------------------------------------------------*
-*       CLASS zhr_dpd_inlezen DEFINITION
+*       CLASS z_dpf_upload DEFINITION
 *----------------------------------------------------------------------*
 *
 *----------------------------------------------------------------------*
-class zhr_dpd_inlezen definition.
+class z_dpf_upload definition.
 
   public section.
 
@@ -69,15 +69,15 @@ class zhr_dpd_inlezen definition.
 endclass.                    "zhr_dpd_inlezen DEFINITION
 
 *----------------------------------------------------------------------*
-*       CLASS zhr_dpd_inlezen IMPLEMENTATION
+*       CLASS z_dpf_upload IMPLEMENTATION
 *----------------------------------------------------------------------*
 *
 *----------------------------------------------------------------------*
-class zhr_dpd_inlezen implementation.
+class z_dpf_upload implementation.
 
   method process_in_background.
 
-    data lv_jobname  type btcjob value 'ZHR_DPD_INLEZEN'.
+    data lv_jobname  type btcjob value 'Z_DPF_UPLOAD'.
     data lv_jobcount type btcjobcnt.
 
 *   Open job.
@@ -698,4 +698,4 @@ class zhr_dpd_inlezen implementation.
 
   endmethod.                    "save_document
 
-endclass.                    "zhr_dpd_inlezen IMPLEMENTATION
+endclass.                    "z_dpf_upload IMPLEMENTATION
